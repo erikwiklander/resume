@@ -1,3 +1,9 @@
+---
+layout: resume
+title: Resume
+permalink: /resume/
+---
+
 # Erik Wiklander
 
 Austin, Texas - erik@wiklander.org - +1 512 608 6360 - LinkedIn: <https://www.linkedin.com/in/ewiklander/>
