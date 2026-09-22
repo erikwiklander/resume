@@ -20,7 +20,15 @@ Open <http://127.0.0.1:4000>.
 
 ## Generate a PDF
 
-The PDF is generated from the Jekyll-rendered resume page, not edited directly:
+The PDF is generated from `resume.md` with Pandoc and Typst, not edited directly.
+
+Install the PDF tools:
+
+```sh
+brew install pandoc typst
+```
+
+Then run:
 
 ```sh
 ./scripts/generate-pdf.sh
