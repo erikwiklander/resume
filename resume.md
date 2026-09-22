@@ -2,28 +2,27 @@
 layout: resume
 title: Resume
 permalink: /resume/
+name: Erik Wiklander
+headline: Principal Software Engineer / Hands-On Architect
+location: Austin, Texas
+email: erik@wiklander.org
+phone: "+1 512 608 6360"
+linkedin: https://www.linkedin.com/in/ewiklander/
 ---
-
-# Erik Wiklander
-
-Austin, Texas - erik@wiklander.org - +1 512 608 6360 - LinkedIn: <https://www.linkedin.com/in/ewiklander/>
-
-## Principal Software Engineer / Hands-On Architect
 
 Principal-level software engineer and hands-on architect with more than 20 years of experience designing, modernizing, and delivering enterprise software. Architecture owner and hands-on technical lead for high-scale backend platforms, with management responsibilities as a complement to technical delivery. Experienced with cloud integrations, microservices, data-intensive systems, legacy modernization, and distributed engineering teams. Broad hands-on background across Java, Spring Boot, modern web UI development, Python, cloud platforms, Kubernetes, and relational databases.
 
-## Core Strengths
+## CORE STRENGTHS
 
-- **Architecture:** product architecture, software architecture, microservices, legacy modernization, platform integration
-- **Backend:** Java, Spring Boot, Spring, Hibernate, Drools, REST APIs, Python
-- **Frontend:** modern web UI development, TypeScript, React, Vue.js, Vite, enterprise web applications
-- **Data:** PostgreSQL, Oracle, data modeling, ETL, high-volume batch processing
-- **Cloud and delivery:** Azure, Kubernetes, Terraform, Azure DevOps, CI/CD, observability
-- **Leadership:** technical direction, hands-on delivery, team leadership, distributed teams
+| | |
+| :--- | :--- |
+| **Architecture:** product architecture, software architecture, microservices, legacy modernization, platform integration | **Backend:** Java, Spring Boot, Spring, Hibernate, Drools, REST APIs, Python |
+| **Frontend:** modern web UI development, TypeScript, React, Vue.js, Vite, enterprise web applications | **Data:** PostgreSQL, Oracle, data modeling, ETL, high-volume batch processing |
+| **Cloud and delivery:** Azure, Kubernetes, Terraform, Azure DevOps, CI/CD, observability | **Leadership:** technical direction, hands-on delivery, team leadership, distributed teams |
 
-## Professional Experience
+## PROFESSIONAL EXPERIENCE
 
-### CCC Intelligent Solutions - Manager, Architecture / Senior Product Architect
+### CCC Intelligent Solutions | Manager, Architecture / Senior Product Architect
 
 April 2020-present
 
@@ -38,13 +37,13 @@ Manager, Architecture, November 2022-present; Senior Product Architect, April 20
 - Set up AI-assisted production analysis of Kibana logs and timing data to identify performance issues and downstream-system problems, delivering results to the team through Microsoft Teams.
 - Review technical designs, mentor team members, set coding standards, and implement automated quality guardrails with SpotBugs, PMD, FindBugs, and Sonar; work closely with QA, business analysts, and directors while managing three direct reports.
 
-### Straight Lines Inc. - Senior Consultant
+### Straight Lines Inc. | Senior Consultant
 
 2019-2020
 
 Delivered PLM modernization and integration work for Under Armour and VF Corporation, including CAD integration, legacy application modernization, test coverage improvements, and Spring adoption in an existing Java codebase.
 
-### Wiklandia International AB - Owner / Senior Consultant
+### Wiklandia International AB | Owner / Senior Consultant
 
 2014-2019
 
@@ -55,7 +54,7 @@ Founded and operated an independent consulting company delivering architecture a
 - Independently delivered a cloud-hosted mobile vehicle-inspection application for AGA, covering requirements, architecture, data modeling, backend development, UI development, and hosting selection.
 - Delivered selected PLM and product-development work for H&M, Under Armour, Macy's, and Straight Lines Inc., including Enovia integration, Adobe AEM integration, quality-control workflows, and sample-tracking applications.
 
-### Technia Inc. / Technia AB - Senior Consultant and Senior Application Developer
+### Technia Inc. / Technia AB | Senior Consultant and Senior Application Developer
 
 2008-2014
 
@@ -69,11 +68,11 @@ Delivered enterprise PLM implementations for major retail, apparel, engineering,
 
 Held software development and consulting roles at Atea Information Management, Mandator, Isydev, and Ericsson between 2001 and 2008. Work included enterprise Java applications, WebSphere Portal, Oracle-backed systems, project tracking, quality assurance, and international application rollouts.
 
-## Education
+## EDUCATION
 
 **M.Sc., Electrical Engineering**  
 KTH Royal Institute of Technology, Stockholm, Sweden
 
-## Languages
+## LANGUAGES
 
 Swedish - Native; English - Fluent; German - Advanced

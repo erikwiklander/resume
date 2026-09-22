@@ -20,7 +20,7 @@ Open <http://127.0.0.1:4000>.
 
 ## Generate a PDF
 
-The PDF is generated from `resume.md` with Pandoc and Typst, not edited directly.
+The PDF is generated from `resume.md` with Pandoc and Typst, using `templates/resume.typst` for layout. Do not edit generated PDFs directly.
 
 Install the PDF tools:
 

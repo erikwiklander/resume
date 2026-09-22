@@ -23,6 +23,7 @@ pandoc resume.md \
   --from markdown+yaml_metadata_block \
   --to typst \
   --pdf-engine=typst \
+  --template templates/resume.typst \
   --standalone \
   --output "$OUT_ABS"
 

@@ -164,6 +164,51 @@
       color: var(--ink);
     }
 
+    .resume-header {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 24px;
+      align-items: start;
+      margin-bottom: 26px;
+    }
+
+    .resume-header h1 {
+      margin-bottom: 8px;
+    }
+
+    .resume-contact {
+      color: var(--muted);
+      font-size: 0.92rem;
+      line-height: 1.45;
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .resume-headline {
+      color: var(--accent-strong);
+      font-size: 1.12rem;
+      font-weight: 760;
+      line-height: 1.2;
+    }
+
+    .resume table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 8px 0 20px;
+    }
+
+    .resume td {
+      width: 50%;
+      padding: 9px 30px 9px 0;
+      border-bottom: 1px solid var(--line);
+      color: #2f3a38;
+      vertical-align: top;
+    }
+
+    .resume td + td {
+      padding-right: 0;
+    }
+
     .footer {
       border-top: 1px solid var(--line);
       padding: 24px 0;
@@ -180,6 +225,15 @@
 
       .nav {
         flex-wrap: wrap;
+      }
+
+      .resume-header {
+        grid-template-columns: 1fr;
+      }
+
+      .resume-contact {
+        text-align: left;
+        white-space: normal;
       }
 
       main {
@@ -244,6 +298,16 @@
 
   <main>
     <div class="shell resume">
+      <header class="resume-header">
+        <div>
+          <h1>{{ page.name }}</h1>
+          <p class="resume-headline">{{ page.headline }}</p>
+        </div>
+        <div class="resume-contact">
+          <div>{{ page.location }} &middot; {{ page.phone }}</div>
+          <div><a href="mailto:{{ page.email }}">{{ page.email }}</a> &middot; <a href="{{ page.linkedin }}">linkedin.com/in/ewiklander</a></div>
+        </div>
+      </header>
       {{ content }}
     </div>
   </main>
