@@ -322,48 +322,6 @@
       font-size: 0.95rem;
     }
 
-    .role {
-      padding: 28px 0;
-      border-bottom: 1px solid var(--line);
-    }
-
-    .role:first-of-type {
-      padding-top: 0;
-    }
-
-    .role h3 {
-      font-size: 1.18rem;
-    }
-
-    .role-title {
-      margin: 4px 0 0;
-      color: #2f3a38;
-      font-size: 1.02rem;
-      font-weight: 720;
-    }
-
-    .meta {
-      margin: 7px 0 14px;
-      color: var(--muted);
-      font-size: 0.96rem;
-    }
-
-    .role-history {
-      margin: 0 0 16px;
-      padding: 0;
-      color: var(--muted);
-      font-size: 0.94rem;
-      list-style: none;
-    }
-
-    .role-history li + li {
-      margin-top: 3px;
-    }
-
-    .role p {
-      margin: 0 0 14px;
-    }
-
     ul {
       margin: 0;
       padding-left: 1.25rem;
@@ -599,19 +557,6 @@
         font-size: 10pt;
       }
 
-      .role {
-        padding: 10pt 0;
-        break-inside: avoid;
-      }
-
-      .role h3 {
-        font-size: 10.5pt;
-      }
-
-      .meta {
-        margin: 3pt 0 5pt;
-      }
-
       li + li {
         margin-top: 3pt;
       }
@@ -637,7 +582,7 @@
           <span>Erik Wiklander</span>
         </a>
         <nav class="nav" aria-label="Resume sections">
-          <a href="#experience">Experience</a>
+          <a href="#work">Work</a>
           <a href="#strengths">Strengths</a>
           <a href="mailto:erik@wiklander.org">Contact</a>
           <a class="button" href="assets/Erik_Wiklander_Principal_Software_Engineer_Resume.pdf">PDF</a>
@@ -678,7 +623,7 @@
     <main>
       <div class="shell resume-layout">
         <div>
-          <section aria-labelledby="build-heading">
+          <section id="work" aria-labelledby="build-heading">
             <h2 class="section-heading" id="build-heading">What I Build</h2>
             <div class="feature-grid">
               <article class="feature">
@@ -701,62 +646,12 @@
             <p class="summary">Principal-level software engineer and hands-on architect with more than 20 years of experience turning complicated enterprise problems into systems teams can actually run. I am usually most useful where architecture, production reality, data volume, and hands-on implementation all meet.</p>
           </section>
 
-          <section id="experience" aria-labelledby="experience-heading">
-            <h2 class="section-heading" id="experience-heading">Professional Experience</h2>
-
-            <article class="role">
-              <h3>CCC Intelligent Solutions</h3>
-              <p class="role-title">Manager, Architecture / Senior Product Architect</p>
-              <p class="meta">April 2020-present</p>
-              <ul class="role-history">
-                <li>Manager, Architecture: November 2022-present</li>
-                <li>Senior Product Architect: April 2020-October 2022</li>
-              </ul>
-              <ul>
-                <li>Lead architecture and hands-on development for casualty auto insurance systems used by major auto insurers to evaluate submitted bills and generate 70,000,000 recommendations daily, supporting 99.5%+ uptime and zero production rule defects after release.</li>
-                <li>Designed a version-controlled PostgreSQL architecture for rules-engine reference data, including partitioned datasets with hundreds of millions of rows and zero-downtime updates through active-partition switching.</li>
-                <li>Improved rule-engine performance by implementing caching and parallelizing a single-threaded Drools execution model across available CPU cores, reducing large-request runtime from 10 minutes to 1 minute.</li>
-                <li>Built release automation with automatic builds, QA approval notifications, isolated rule-file performance tests, and full-rule-set tests against de-identified production data; enabled one to two daily QA deployments and weekly production releases with a 100% success rate.</li>
-                <li>Piloting a Spring AI web application integrated with OpenAI that helps rule authors, and eventually clients, create technical rules from natural language, generate Java-based rule definitions, interact with Git and build tools, and deploy new rules to a non-production server from a single web UI.</li>
-                <li>Built a real-time, event-driven analytics application that replaced analytics-owned S3 scanning that could not keep up with data volume, using SQS to react to JSON uploads, transform complex data, and load SQL analytics tables while staying fully decoupled from the core claims-processing flow.</li>
-                <li>Set up AI-assisted production analysis of Kibana logs and timing data to identify performance issues and downstream-system problems, delivering results to the team through Microsoft Teams.</li>
-                <li>Review technical designs, mentor team members, set coding standards, and implemented automated quality guardrails with SpotBugs, PMD, FindBugs, and Sonar; work closely with QA, business analysts, and directors while managing three direct reports.</li>
-              </ul>
-            </article>
-
-            <article class="role">
-              <h3>Straight Lines Inc. - Senior Consultant</h3>
-              <p class="meta">2019-2020</p>
-              <p>Delivered PLM modernization and integration work for Under Armour and VF Corporation, including CAD integration, legacy application modernization, test coverage improvements, and Spring adoption in an existing Java codebase.</p>
-            </article>
-
-            <article class="role">
-              <h3>Wiklandia International AB - Owner / Senior Consultant</h3>
-              <p class="meta">2014-2019</p>
-              <p>Founded and operated an independent consulting company delivering architecture and full-stack development for clients in retail, manufacturing, finance, and travel. Owned work from requirements and technical analysis through architecture, implementation, integration, and delivery.</p>
-              <ul>
-                <li>Modernized legacy travel and finance platforms using Java, Spring Boot, Spring Batch, PostgreSQL, Vue.js, REST APIs, ETL, and mainframe integration.</li>
-                <li>Architected and led development of a real-time credit-report enhancement platform for UC AB, including bank-facing APIs, data modeling, a partitioned PostgreSQL database, and an Angular administration interface.</li>
-                <li>Independently delivered a cloud-hosted mobile vehicle-inspection application for AGA, covering requirements, architecture, data modeling, backend development, UI development, and hosting selection.</li>
-                <li>Delivered selected PLM and product-development work for H&amp;M, Under Armour, Macy's, and Straight Lines Inc., including Enovia integration, Adobe AEM integration, quality-control workflows, and sample-tracking applications.</li>
-              </ul>
-            </article>
-
-            <article class="role">
-              <h3>Technia Inc. / Technia AB - Senior Consultant and Senior Application Developer</h3>
-              <p class="meta">2008-2014</p>
-              <p>Delivered enterprise PLM implementations for major retail, apparel, engineering, and technology clients including H&amp;M, Under Armour, Macy's, VF Corporation, KLA-Tencor, TE Connectivity, The Gap, New Balance, Oticon, and Sony Ericsson.</p>
-              <ul>
-                <li>Designed data models, integrations, user interfaces, document generation, bill-of-materials workflows, and product lifecycle processes using Java, Enovia, Oracle, Spring, Struts, and related technologies.</li>
-                <li>Served as technical lead and Scrum Master for an engineering PLM implementation at KLA-Tencor.</li>
-                <li>Led or contributed to distributed development teams, including offshore resources, on large enterprise implementations.</li>
-              </ul>
-            </article>
-
-            <article class="role">
-              <h3>Earlier Experience</h3>
-              <p>Held software development and consulting roles at Atea Information Management, Mandator, Isydev, and Ericsson between 2001 and 2008. Work included enterprise Java applications, WebSphere Portal, Oracle-backed systems, project tracking, quality assurance, and international application rollouts.</p>
-            </article>
+          <section aria-labelledby="resume-heading">
+            <h2 class="section-heading" id="resume-heading">Formal Resume</h2>
+            <p class="summary">The full chronology, titles, dates, and earlier consulting work live in the PDF. This page is the quick version: what I build, where I am useful, and enough signal to decide whether we should talk.</p>
+            <div class="actions">
+              <a class="button" href="assets/Erik_Wiklander_Principal_Software_Engineer_Resume.pdf">Open the PDF Resume</a>
+            </div>
           </section>
         </div>
 
