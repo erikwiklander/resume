@@ -278,10 +278,29 @@
       font-size: 1.18rem;
     }
 
+    .role-title {
+      margin: 4px 0 0;
+      color: #2f3a38;
+      font-size: 1.02rem;
+      font-weight: 720;
+    }
+
     .meta {
       margin: 7px 0 14px;
       color: var(--muted);
       font-size: 0.96rem;
+    }
+
+    .role-history {
+      margin: 0 0 16px;
+      padding: 0;
+      color: var(--muted);
+      font-size: 0.94rem;
+      list-style: none;
+    }
+
+    .role-history li + li {
+      margin-top: 3px;
     }
 
     .role p {
@@ -570,8 +589,13 @@
             <h2 class="section-heading" id="experience-heading">Professional Experience</h2>
 
             <article class="role">
-              <h3>CCC Intelligent Solutions - Manager, Architecture / Senior Product Architect</h3>
-              <p class="meta">April 2020-present &middot; Manager, Architecture, November 2022-present; Senior Product Architect, April 2020-October 2022</p>
+              <h3>CCC Intelligent Solutions</h3>
+              <p class="role-title">Manager, Architecture / Senior Product Architect</p>
+              <p class="meta">April 2020-present</p>
+              <ul class="role-history">
+                <li>Manager, Architecture: November 2022-present</li>
+                <li>Senior Product Architect: April 2020-October 2022</li>
+              </ul>
               <ul>
                 <li>Lead architecture and hands-on development for casualty auto insurance systems used by major auto insurers to evaluate submitted bills and generate 70,000,000 recommendations daily, supporting 99.5%+ uptime and zero production rule defects after release.</li>
                 <li>Designed a version-controlled PostgreSQL architecture for rules-engine reference data, including partitioned datasets with hundreds of millions of rows and zero-downtime updates through active-partition switching.</li>
