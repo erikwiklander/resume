@@ -10,7 +10,7 @@ phone: "+1 512 608 6360"
 linkedin: https://www.linkedin.com/in/ewiklander/
 ---
 
-Principal-level software engineer and hands-on architect with more than 20 years of experience designing, modernizing, and delivering enterprise software. Architecture owner and hands-on technical lead for high-scale backend platforms, with management responsibilities as a complement to technical delivery. Experienced with cloud integrations, microservices, data-intensive systems, legacy modernization, and distributed engineering teams. Broad hands-on background across Java, Spring Boot, modern web UI development, Python, cloud platforms, Kubernetes, and relational databases.
+Principal-level software engineer and hands-on architect designing, modernizing, and delivering enterprise software. Architecture owner and hands-on technical lead for high-scale backend platforms, with management responsibilities as a complement to technical delivery. Experienced with cloud integrations, microservices, data-intensive systems, legacy modernization, and distributed engineering teams. Broad hands-on background across Java, Spring Boot, modern web UI development, Python, cloud platforms, Kubernetes, and relational databases.
 
 ## CORE STRENGTHS
 
@@ -64,7 +64,7 @@ Delivered enterprise PLM implementations for major retail, apparel, engineering,
 
 ### Earlier Experience
 
-Held software development and consulting roles at Atea Information Management, Mandator, Isydev, and Ericsson between 2001 and 2008. Work included enterprise Java applications, WebSphere Portal, Oracle-backed systems, project tracking, quality assurance, and international application rollouts.
+Held software development and consulting roles at Atea Information Management, Mandator, Isydev, and Ericsson. Work included enterprise Java applications, WebSphere Portal, Oracle-backed systems, project tracking, quality assurance, and international application rollouts.
 
 ## EDUCATION
 
