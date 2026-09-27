@@ -37,7 +37,9 @@ Then run:
 The output is written to:
 
 ```text
-dist/Erik_Wiklander_Resume.pdf
+assets/Erik_Wiklander_Resume.pdf
 ```
 
-Generated site files and PDFs are ignored by Git.
+The published PDF is tracked in Git and linked from the site. Always regenerate it before pushing changes to `resume.md`, the PDF template, or the PDF generation scripts, and commit the updated PDF together with those changes.
+
+Generated site files and preview PDFs in `dist/` are ignored by Git.

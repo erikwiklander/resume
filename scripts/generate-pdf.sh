@@ -14,7 +14,7 @@ if ! command -v typst >/dev/null 2>&1; then
   exit 1
 fi
 
-OUT="${1:-dist/Erik_Wiklander_Resume.pdf}"
+OUT="${1:-assets/Erik_Wiklander_Resume.pdf}"
 mkdir -p "$(dirname "$OUT")"
 OUT_DIR="$(cd "$(dirname "$OUT")" && pwd)"
 OUT_ABS="$OUT_DIR/$(basename "$OUT")"
@@ -22,6 +22,7 @@ OUT_ABS="$OUT_DIR/$(basename "$OUT")"
 pandoc resume.md \
   --from markdown+yaml_metadata_block \
   --to typst \
+  --lua-filter scripts/resume-pdf.lua \
   --pdf-engine=typst \
   --template templates/resume.typst \
   --standalone \
