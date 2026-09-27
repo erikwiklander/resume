@@ -26,8 +26,6 @@ Principal-level software engineer and hands-on architect with more than 20 years
 
 April 2020-present
 
-Manager, Architecture, November 2022-present; Senior Product Architect, April 2020-October 2022
-
 - Lead architecture and hands-on development for casualty auto insurance systems used by major auto insurers to evaluate submitted bills and generate 70,000,000 recommendations daily, supporting 99.5%+ uptime and zero production rule defects after release.
 - Designed a version-controlled PostgreSQL architecture for rules-engine reference data, including partitioned datasets with hundreds of millions of rows and zero-downtime updates through active-partition switching.
 - Improved rule-engine performance by implementing caching and parallelizing a single-threaded Drools execution model across available CPU cores, reducing large-request runtime from 10 minutes to 1 minute.
