@@ -22,7 +22,7 @@
 
 #set text(
   font: "Arial",
-  size: 10pt,
+  size: 11pt,
   fill: rgb("#17201f"),
 )
 
@@ -53,7 +53,7 @@
   align: left,
 )
 
-#show link: it => text(fill: rgb("#111111"))[#it.body]
+#show link: set text(fill: rgb("#111111"))
 
 #show strong: it => text(weight: "bold")[#it.body]
 
@@ -93,7 +93,7 @@
     #align(right)[
       #text(size: 8.7pt, fill: muted)[
         $location$ · $phone$ \
-        $email$ · #link("$linkedin$")[linkedin.com/in/ewiklander]
+        $email$ · #link("https://www.linkedin.com/in/ewiklander/")[linkedin.com/in/ewiklander]
       ]
     ]
   ],

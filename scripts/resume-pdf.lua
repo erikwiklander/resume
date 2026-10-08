@@ -6,6 +6,10 @@ function Blocks(blocks)
     local heading = blocks[index]
     local following = blocks[index + 1]
     if heading.t == "Header" and heading.level == 3
+        and pandoc.utils.stringify(heading):match("^Wiklandia International AB") then
+      result:insert(pandoc.RawBlock("typst", "#pagebreak()"))
+    end
+    if heading.t == "Header" and heading.level == 3
         and following and following.t == "Para" then
       local date = pandoc.utils.stringify(following)
       if date:match("^%d%d%d%d%-%d%d%d%d$")
